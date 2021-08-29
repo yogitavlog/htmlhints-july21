@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <div class="bg-img">
+        <div class="content">
+            <header>Sign Up for Free</header>
+            <form action="" onsubmit="return false";>
+                <div class="field">
+                    <div class="first">
+                        <input type="text" name="firstname" id="first_name" placeholder="First Name">
+                        <p><small id="firstname_errormsg"></small></p>
+                    </div>
+                    <div class="last">
+                        <input type="text" name="lastname" id="last_name" placeholder="Last Name">
+                        <p><small id="lastname_errormsg"></small></p>
+                    </div>
+                </div>
+
+                <div class="fields">
+                    <input type="email" name="email" id="email" placeholder="Email Address">
+                </div>
+                <p><small id="email_errormsg"></small></p>
+
+                <div class="fields">
+                    <input type="password" name="password" id="pass" placeholder="Password">
+                </div>
+                <p><small id="password_errormsg"></small></p>
+
+                <div class="fields">
+                    <input type="submit" value="Register" id="RegisterBtn">
+                </div>
+
+                <div class="signIn">Do You have an account?
+                    <a href="index.html" target="_blank">LogIn Now</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="register.js"></script>
+</body>
+</html>
